@@ -1,15 +1,13 @@
 repeat wait() until game:IsLoaded()
-coroutine.wrap(function()
-print("temporarily disabled ui due to lag")
---loadstring(game:HttpGet("https://pastebin.com/raw/28B7v6P4", true))()
-end)()
---wait(4)
+
 coroutine.wrap(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/arzav/Tryhard/Autorob/level.1", true))()
 end)()
+
 coroutine.wrap(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/arzav/Tryhard/Autorob/level.2", true))()
 end)()
-coroutine.wrap(function() -- TEMPORARY
-game:GetService("RunService"):Set3dRenderingEnabled(false)
+
+coroutine.wrap(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/arzav/Tryhard/Autorob/user.interface", true))()
 end)()
