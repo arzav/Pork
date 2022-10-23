@@ -1,0 +1,10 @@
+userids = {
+[819151184] = true,
+[3963908937] = true,
+[1921634028] = true,
+[3752772934] = true, 
+[3983119084] = true, 
+[896052644] = true
+}
+return userids
+-- These will be our whitelisted users
