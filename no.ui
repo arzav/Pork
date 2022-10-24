@@ -1,11 +1,11 @@
 repeat wait() until game:IsLoaded()
 
 coroutine.wrap(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/arzav/Tryhard/Autorob/level.1", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/arzav/Pork/Grinder/level.1", true))()
 end)()
 
 coroutine.wrap(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/arzav/Tryhard/Autorob/level.2", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/arzav/Pork/Grinder/level.2", true))()
 end)()
 
 coroutine.wrap(function()
