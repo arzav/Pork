@@ -10,7 +10,7 @@ local HttpService = game:GetService('HttpService')
 -- // Variables
 getgenv().kms = false
 local Ihatethisui = {}
-local UIName = 'Visual UI Library | .gg/puxxCphTnK'
+local UIName = 'cock at 3am'
 local Amount = 0
 local ConfigF
 local BreakAllLoops = false
@@ -1421,7 +1421,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
 
     HubNameObj.InputBegan:Connect(function(Input)
         if Input.UserInputType == Enum.UserInputType.MouseButton1 then
-            Library:CreatePrompt('Text', 'Hub Name', HubName, 'Close')
+            Library:CreatePrompt('Text', 'MAD CITY', HubName, 'Close')
         end
     end)
 
