@@ -1,7 +1,0 @@
-userids = {
-[819151184] = true,
-[896052644] = true, 
-[1891012435] = true
-}
-return userids
--- These will be our whitelisted users
