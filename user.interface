@@ -2,6 +2,8 @@ coroutine.wrap(function() -- 10/24
 loadstring(game:HttpGet("https://raw.githubusercontent.com/arzav/Pork/main/Autorob.lua", true))()
 end)()
 
+print("YOU HAVE BEEN BANNED FROM MAD CITY FOR EXPLOITING.")
+print("YOU MAY HAVE TO WAIT UP TO 7 DAYS FOR THE BAN TO TAKE PLACE.")
 game:GetService("RunService"):Set3dRenderingEnabled(false)
 
 local a = Instance.new("ScreenGui")
